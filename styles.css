@@ -2,3 +2,15 @@ body{
     font: sans-serif;
     color:blueviolet;
 }
+
+@media (max-width: 61.25cm){
+    html{
+        font-size: 58%;
+    }
+}
+
+.projects-grid{
+    display: grid{
+    grid-template-columns: repeat(auto-fir, minmax(320px, 1fr))
+    };
+}
