@@ -1,0 +1,19 @@
+body{
+    background: #003366;
+    color: #ff8e00;
+    text-align: center;
+}
+
+h1{
+    color: #fd7702;
+    font-size: 60px;
+}
+
+img{
+    max-width: 10%;
+    display: block;
+    height: auto;
+    margin: auto;
+    border: 5px solid #002347;
+    border-radius: 10px;
+}
