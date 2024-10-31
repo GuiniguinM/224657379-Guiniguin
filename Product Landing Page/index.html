@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Product Landing</title>
 </head>
 <body>
@@ -21,6 +21,7 @@
 
     <form action="https://www.freecodecamp.com/email-submit" id="form">
         <input type="email" name="email" id="email" placeholder="Input Email">
+        <br>
         <input type="submit" name="submit" id="submit">
         <br>
     </form>
@@ -44,38 +45,41 @@
         <br>
         <section id="pricing">
             <h1>In Game Purchases</h1>
-            <div>
-                <h2>Welkin Moon</h2>
-                <h3>₱249.00</h3>
-                <ul>
-                    <li>300 Genesis Crystals</li>
-                    <li>90 Primogem a day x 30 days</li>
-                </ul>
-                <button>Select</button>
-            </div>
-            <br>
-            <div>
-                <h2>Adventurer's Bundle</h2>
-                <h3>₱9,645.40</h3>
-                <ul>
-                    <li>Acquaint Fate x2</li>
-                    <li>Mora × 150000</li>
-                    <li>Adventurer's Experience x80</li>
-                    <li>Fine Enhancement Ore x50</li>
-                    <li>Food items</li>
-                </ul>
-                <button>Select</button>
-            </div>
-            <br>
-            <div>
-                <h2>Gnostic Hymn</h2>
-                <h3>₱565.20</h3>
-                <ul>
-                    <li>A 4-star weapon for the current period</li>
-                    <li>Primogems</li>
-                    <li>Talent Level Up Materials</li>
-                    <li>Character Exp</li>
-                </ul>
+            <div id="pricing-container">
+                <div id="wel" class="pricing-box">
+                    <h2>Welkin Moon</h2>
+                    <h3>₱249.00</h3>
+                    <ul>
+                        <li>300 Genesis Crystals</li>
+                        <li>90 Primogem a day x 30 days</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
+                <br>
+                <div id="ad" class="pricing-box">
+                    <h2>Adventurer's Bundle</h2>
+                    <h3>₱9,645.40</h3>
+                    <ul>
+                        <li>Acquaint Fate x2</li>
+                        <li>Mora × 150000</li>
+                        <li>Adventurer's Experience x80</li>
+                        <li>Fine Enhancement Ore x50</li>
+                        <li>Food items</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
+                <br>
+                <div id="gn" class="pricing-box">
+                    <h2>Gnostic Hymn</h2>
+                    <h3>₱565.20</h3>
+                    <ul>
+                        <li>A 4-star weapon for the current period</li>
+                        <li>Primogems</li>
+                        <li>Talent Level Up Materials</li>
+                        <li>Character Exp</li>
+                    </ul>
+                    <button>Select</button>
+                </div>
             </div>
         </section>
     </div>
